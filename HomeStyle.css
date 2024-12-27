@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --color_principal: white;
+    --color_secundario: #6b6b6b;
+    --scolor-terciario: #bababa;
+}
+
+html,body {
+    background-color: white;
+    margin:0;
+    padding:0;
+    font-family:"Roboto",serif ;
+}
+
+header {
+    background-image: white;
+    margin:0;
+    padding:0;
+    max-width: 1600px;
+    margin:auto;
+    @media screen and (min-width:980px){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.Servicios {
+    margin:0;
+    padding-right:0;
+    padding-left:0;
+    padding-top:350px;
+    max-width: 1600px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media screen and (min-width:980px){
+    }
+}
+
+.logo{
+    font-size:30px;
+    margin:0;
+    padding-left:20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+.navlist{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 30px;
+    @media screen and (min-width:980px){
+        margin: 5px 0 0 0;
+    }
+}
+
+.navlink{
+    font-size:25px;
+    color: black;
+    margin: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    position: relative;
+    font-weight: 400;
+   
+    &:hover{
+        color: #bababa
+    }
+   
+    @media screen and (min-width:980px){
+        mfontsize: 30px;
+    }
+}
+
+.Hijos{
+    list-style-type: none;
+    font-size:20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    &:hover{
+        background-image: linear-gradient(to right,rgb(238, 255, 0),rgba(160, 255, 50, 0.6),rgba(46, 161, 255, 0.6));
+    }
+   
+    @media screen and (min-width:980px){
+        mfontsize: 30px;
+    }
+}
+
+.Padres{
+    list-style-type: none;
+    font-weight: 500;
+    font-size:22px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.LinkServicios{
+    text-decoration: none;
+    color:#6b6b6b;
+}
+
+.serviciosfinanciacion{
+    padding:0;
+    margin:0;
+}
+
+.gestionidi{
+    padding:0;
+    margin:0;
+}
+
+.techtransfer{
+    padding:0;
+    margin:0;
+}
+
+.consultoriatecnologica{
+    padding:0;
+    margin:0;
+}
+
+.negocio{
+    padding:0;
+    margin:0;
+}
+
+footer{
+    padding-top: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer_image_{
+    max-width:70px;
+    max-height:70px;
+}
+
+.footer_{
+    padding-top: 5px;
+    font-size:15px;
+    color: #bababa
+}
